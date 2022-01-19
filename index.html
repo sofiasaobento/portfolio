@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet"> 
+  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    rel="stylesheet"/>
+
+
+</head>
+<body>
+<div class="main-container">
+
+  <!--NAVBAR DESKTOP-->
+
+  <section class="navbar-container__desktop">
+    <h1>Sofia Sao Bento</h1>
+    <nav class="lista-navbar">
+      <a href="#inicio">
+        <i class="fas fa-home" aria-hidden="true"></i> Inicio
+      </a>
+      <a href="#sobremi">
+        <i class="fas fa-user-alt" aria-hidden="true"></i> Sobre mi
+      </a>
+      <a href="#servicios">
+        <i class="fas fa-briefcase" aria-hidden="true"></i> Servicios
+      </a>
+      <a href="#estudios">
+        <i class="fas fa-user-graduate" aria-hidden="true"></i> Estudios
+      </a>
+      <a href="#trabajos">
+        <i class="fas fa-layer-group" aria-hidden="true"></i> Mis Trabajos
+      </a>
+      <a href="#contactame">
+        <i class="fas fa-comments" aria-hidden="true"></i> Contactame
+      </a>
+    </nav>
+  </section>
+<div class="full-container">
+
+  <!--NAVBAR MOBILE-->
+
+  <section class="navbar-container__mobile">
+    <nav class="navbar-container__mobile__list">
+      <label for="navbar" class="navbar-container__mobile__list__label">
+        <input type="checkbox" id="navbar" class="navbar-input" />
+        <div class="navbar-open">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="navbar-close">
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="navbar-contet">
+          <a href="index.html"><i class="fas fa-home"></i>Inicio</a>
+          <a href="#sobremi"><i class="fas fa-user-alt"></i>Sobre mi</a>
+          <a href="#servicios"><i class="fas fa-briefcase"></i>Servicios</a>
+          <a href="#estudios"><i class="fas fa-graduation-cap"></i>Estudios</a>
+          <a href="#trabajos"><i class="fas fa-layer-group"></i>Mis trabajos</a>
+          <a href="#contactame"><i class="fas fa-comments"></i>Contactame</a>
+        </div>
+      </label>
+    </nav>
+  </section>
+</section>
+
+<!--BANNER-->
+
+<section class="banner-container"  id="inicio">
+ <div class="background-image">
+ <div class="banner-container-main">
+   <img src="/avatar.svg" alt="avatar">
+   <h2>Sofia Sao Bento</h2>
+   <span>Frontend Developer</span>
+   <div class="redes-sociales">
+    <a href="https://www.instagram.com/sofiiasaobento/" target="_blank">
+      <i class="fab fa-instagram" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.facebook.com/sofia.saobento/" target="_blank">
+    <i class="fab fa-facebook"></i>
+  </a>
+  <a href="http://wa.me/541164540481" target="_blank">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+  </a>
+   </div>
+   <!--REDES-->
+   <button class="boton-small">
+     <a href="#contactame"> Contactame </a>
+   </button>
+ </div>
+ </div>
+ <!--BANNER CONTAINER-MAIN-->
+<a class="banner-container__scroll" href="#sobremi">
+  <span class="scroll">Scroll Down</span>
+  <img src="/scroll.png" alt="desplazar">
+</a>
+</section>
+
+<!--SOBRE MI -->
+
+<section class="container" id="sobremi">
+  <h3 class="titulo">Sobre mi</h3>
+  <div class="sobremi">
+    <img src="/avatar-2.svg" alt="avatar">
+    <div class="contenido-sobremi">
+      <div class="descripcion-sobremi">
+      <span>
+        Hola! Soy profesora de educacion física y actualmente me encuentro haciendo cursos de HTML5 y CSS3 para iniciarme en la programación.
+      </span>
+      <button class="curriculum">
+        <a href="#curriculum">Ver curriculum</a>
+      </button>
+      </div>
+      <div class="skils-container__main__card__progress">
+        <div class="skils-container__main__card__progress__content">
+          <h3>HTML</h3>
+          <div class="skils-container__main__card__progress__content__bar">
+            <div class="skils-container__main__card__progress__content__bar__incomplete"></div>
+          </div>
+        </div>
+        <div class="skils-container__main__card__progress__content">
+          <h3>CSS</h3>
+          <div class="skils-container__main__card__progress__content__bar">
+            <div class="skils-container__main__card__progress__content__bar__incomplete"></div>
+          </div>
+        </div>
+        <div class="skils-container__main__card__progress__content">
+          <h3>RESPONSIVE</h3>
+          <div class="skils-container__main__card__progress__content__bar">
+            <div class="skils-container__main__card__progress__content__bar__incomplete"></div>
+          </div>
+      
+    </div>
+  
+  
+</section>
+
+<!--SERVICIOS-->
+
+<section class="contenedor-servicios" id="servicios">
+ <h3 class="titulo-principal">Servicios</h3>
+ <div class="cards-servicios">
+   <div class="servicios card-html">
+    <img src="/dev.svg" alt="imagen-card">
+     <span class="card-servicios-titulo">HTML</span>
+     <P>Desarrollo de páginas web con la sintaxis adecuada para impulsar el SEO de tu marca.</P>
+     
+   </div>
+   <div class="servicios card-css">
+    <img src="/css.svg" alt="imagen-card">
+    <span class="card-servicios-titulo">CSS</span>
+    <P>Propiedades,estilos y colores adecuados para mantener e impulsar la imagen de tu marca.</P>
+    
+  </div>
+
+  <div class="servicios card-responsive">
+    <img src="/ux.svg" alt="imagen-card">
+    <span class="card-servicios-titulo">RESPONSIVE</span>
+    <P>Posibilidad de ver tu página en distintas pantallas,sin perder su atractivo</P>
+    
+  </div>
+ </div>
+</section>
+
+<!--ESTUDIOS-->
+
+<section class="experience-container_container" id="estudios">
+  <h3 class="titulo-principal">Estudios</h3>
+
+  <div class="container-estudios">
+
+    <div class="card-estudios">
+
+      <div class="data-estudios">
+        <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+      <span class="year">Marzo 2021 - Finalizado</span>
+      <span class="academia">Udemy</span>
+      <p class="descripcion-curso">Curso HTML5 Y CSS3</p>
+      </div>
+
+      <div class="data-estudios">
+        <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+      <span class="year">Abril 2021 - Finalizado</span>
+      <span class="academia">Udemy</span>
+      <p class="descripcion-curso">CSS3+Flexbox</p>
+      </div>
+
+      <div class="data-estudios">
+        <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+      <span class="year">Mayo 2021 - Finalizado</span>
+      <span class="academia">Udemy</span>
+      <p class="descripcion-curso">Curso HTML5 Y CSS3</p>
+      </div>
+    </div>
+
+    <div class="card-estudios">
+      <div class="data-estudios">
+        <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+      <span class="year">Mayo 2021 - Finalizado</span>
+      <span class="academia">Lewagon</span>
+      <p class="descripcion-curso">Curso HTML5 Y CSS3 basico</p>
+      </div>
+
+      <div class="data-estudios">
+        <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+      <span class="year">Mayo 2021 - Actualidad</span>
+      <span class="academia">Rocket Code</span>
+      <p class="descripcion-curso">Curso HTML5 Y CSS3</p>
+      </div>
+
+      <div class="data-estudios">
+        <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+      <span class="year">Junio 2021 - Actualidad</span>
+      <span class="academia">Networking Academy</span>
+      <p class="descripcion-curso">Conceptos básicos de programación en Python</p>
+      </div>
+
+
+    </div>
+    </div>
+
+</section>
+
+<!--TRABAJOS-->
+
+<section class="works-container_container" id="trabajos">
+  <h3 class="titulo-principal">Mis trabajos</h3>
+  <div class="container-trabajos">
+  <div class="card-trabajos">
+    <img src="/trabajo-1.svg" alt="imagen">
+    <div class="trabajos_mask">
+      <span>Photo magic</span>
+    </div>
+    </div>
+    <div class="card-trabajos">
+      <img src="/trabajo-6.svg" alt="imagen">
+      <div class="trabajos_mask">
+      <span>Mobile first</span>
+    </div>
+    </div>
+    <div class="card-trabajos">
+      <img src="/trabajo-5.svg" alt="imagen">
+      <div class="trabajos_mask">
+      <span>Youtube</span>
+    </div>
+    </div>
+    
+  <div class="card-trabajos">
+    <img src="/trabajo-4.svg" alt="imagen">
+    <div class="trabajos_mask">
+      <span>Falabella</span>
+    </div>
+  </div>
+
+  <div class="card-trabajos">
+    <img src="/trabajo-3.svg" alt="imagen">
+    <div class="trabajos_mask">
+      <span>Roadmap</span>
+    </div>
+    </div>
+  <div class="card-trabajos">
+    <img src="/trabajo-2.svg" alt="imagen">
+    <div class="trabajos_mask">
+      <span>Happy Computer</span>
+     </div>
+  </div>
+</div>
+<div>
+<button class="boton-small2"><a href="#works">Ver todo</a></button>
+</div>
+</section>
+
+<!--CONTACTAME-->
+
+<section class="contactame-container container" id="contactame">
+  <h3 class="title-content">Contactame</h3>
+  <div class="contactme-container__main">
+    <div class="contactme-container__main__text">
+      <span class="contactme-container__main__text__title">Envíame un mensaje!</span>
+      <p>¿Quieres saber más de mi, mis trabajos y experiencias? Envíame un mensaje👋🏼.</p>
+    </div>
+    <form class="contactme-container__main__form">
+      <div class="contactme-container__main__form__name">
+        <label for="name"><input id="name" type="text" placeholder="Nombre"></label>
+        <label for="email"><input id="email" type="email" placeholder="Email"></label>
+      </div>
+      <label class="contactme-container__main__form__comment" for="comment"><textarea id="comment" placeholder="Tu mensaje"></textarea></label>
+      <button class="boton-small" type="submit"> <a href="#contacto">Enviar</a></button>
+    </form>
+  </div>
+</section>
+
+<!--FOOTER-->
+<footer class="footer">
+  <span>Sofia Sao Bento</span>
+  <nav class="redes-footer">
+    <a  href="https://instagram.com/sofiisaobento" target="_blank"><i class="fab fa-instagram"></i></a>
+
+    
+    <a href="https://www.facebook.com/sofia.saobento/" target="_blank"><i class="fab fa-facebook"></i></a>
+
+    
+    <a href="http://wa.me/541164540481" target="_blank"> <i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+    </nav>
+</footer>
+</div>
+</div>
+
+
+  <script src="https://kit.fontawesome.com/7aa36192fa.js" crossorigin="anonymous"></script>
+</body>
+</html>
